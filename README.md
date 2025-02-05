@@ -2,6 +2,10 @@ Overview
 
 **Airmate✈️** is an AI-powered chatbot designed to assist users with flight availability queries. It utilizes a simple neural network for intent classification and integrates with a flight API to fetch real-time flight data. The chatbot is deployed with a Chainlit-based front-end for user interaction.
 
+https://github.com/user-attachments/assets/d1796119-dcd0-4c72-82b5-7148f42564b1
+
+
+
 **Project Workflow** 📈
 
 **1. Data Preparation**
