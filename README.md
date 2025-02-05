@@ -50,9 +50,9 @@ Chainlit enables smooth communication between users and the chatbot.
 
 The interface is designed to handle user queries and display API responses seamlessly.
 
-**5. Techstacks**
+**5. Techstacks**🖥️
 
-**Backend:** Python, TensorFlow/Keras
+**Backend:** Python , TensorFlow/Keras
 
 **Machine Learning:** Neural Networks (Sequential Model)
 
@@ -61,21 +61,22 @@ The interface is designed to handle user queries and display API responses seaml
 **APIs:** Amadeus
 
 
+**6. Future Enhancements**💫
 
-**6. Future Enhancements**
+**Improve Model Performance:**📈
 
-**Improve Model Performance:**
+o Expand dataset for better intent recognition.
 
-Expand dataset for better intent recognition.
+o Integrate multi-agent architecture to enhance chatbot capabilities for trip planning, itinerary preparation, and flight booking.
 
-Experiment with advanced NLP models (e.g., transformers).
+o Experiment LLM models .
 
 **Enhanced API Features:**
 
-Add more filters (e.g., airline preference, layovers, ticket price range).
+o Add more filters (e.g., airline preference, layovers, ticket price range).
 
-Integrate multiple flight APIs for better coverage.
+o Integrate multiple flight APIs for better coverage.
 
 **Voice Assistant Feature:**
 
-Use speech-to-text and text-to-speech for voice-based interactions.
+o Use speech-to-text and text-to-speech for voice-based interactions.
