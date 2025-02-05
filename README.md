@@ -1,10 +1,10 @@
 Overview
 
-##Airmate✈️## is an AI-powered chatbot designed to assist users with flight availability queries. It utilizes a simple neural network for intent classification and integrates with a flight API to fetch real-time flight data. The chatbot is deployed with a Chainlit-based front-end for user interaction.
+**Airmate✈️** is an AI-powered chatbot designed to assist users with flight availability queries. It utilizes a simple neural network for intent classification and integrates with a flight API to fetch real-time flight data. The chatbot is deployed with a Chainlit-based front-end for user interaction.
 
-Project Workflow 📈
+**Project Workflow** 📈
 
-1. Data Preparation
+**1. Data Preparation**
 
 o The dataset consists of intents stored in a JSON format.
 
@@ -12,11 +12,11 @@ o Each intent includes sample user queries and corresponding responses.
 
 o The data is preprocessed and transformed into numerical representations for training.
 
-2. Model Training
+**2. Model Training**
 
 o A simple feedforward neural network is trained using Keras Sequential API.
 
-The architecture includes:
+**The architecture includes:**
 
 o Input layer with 128 neurons and ReLU activation.
 
@@ -32,7 +32,7 @@ o The model is compiled using the Stochastic Gradient Descent (SGD) optimizer wi
 
 o Training is performed with 100 epochs and a batch size of 5.
 
-3. Inference and API Integration
+**3. Inference and API Integration**
 
 The trained model classifies user inputs into predefined intents.
 
@@ -42,7 +42,7 @@ The API fetches real-time flight data and returns relevant results.
 
 The chatbot formats the response and displays it to the user.
 
-4. Deployment and Frontend
+**4. Deployment and Frontend**
 
 The chatbot is deployed using Chainlit for an interactive front-end experience.
 
@@ -50,32 +50,32 @@ Chainlit enables smooth communication between users and the chatbot.
 
 The interface is designed to handle user queries and display API responses seamlessly.
 
-5. Techstacks
+**5. Techstacks**
 
-Backend: Python, TensorFlow/Keras
+**Backend:** Python, TensorFlow/Keras
 
-Machine Learning: Neural Networks (Sequential Model)
+**Machine Learning:** Neural Networks (Sequential Model)
 
-Frontend: Chainlit
+**Frontend:** Chainlit
 
-APIs: Amadeus
+**APIs:** Amadeus
 
 
 
-6. Future Enhancements
+**6. Future Enhancements**
 
-Improve Model Performance:
+**Improve Model Performance:**
 
 Expand dataset for better intent recognition.
 
 Experiment with advanced NLP models (e.g., transformers).
 
-Enhanced API Features:
+**Enhanced API Features:**
 
 Add more filters (e.g., airline preference, layovers, ticket price range).
 
 Integrate multiple flight APIs for better coverage.
 
-Voice Assistant Feature:
+**Voice Assistant Feature:**
 
 Use speech-to-text and text-to-speech for voice-based interactions.
